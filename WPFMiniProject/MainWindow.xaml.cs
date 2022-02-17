@@ -1,5 +1,7 @@
-﻿using System;
+﻿using DemoLibrary;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +22,8 @@ namespace WPFMiniProject
     /// </summary>
     public partial class MainWindow : Window
     {
+        BindingList<AddressModel> addresses = new BindingList<AddressModel>();
+
         public MainWindow()
         {
             InitializeComponent();
