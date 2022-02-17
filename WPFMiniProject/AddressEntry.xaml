@@ -35,13 +35,13 @@
         <TextBlock Grid.Row="2" Grid.Column="1" Margin="0 10 5 0" HorizontalAlignment="Right">City</TextBlock>
         <TextBox x:Name="cityText" Grid.Row="2" Grid.Column="2" MinWidth="200" MaxWidth="300" Margin="0 10 0 0 " />
 
-        <TextBlock Grid.Row="3" Grid.Column="1" Margin="0 20 5 0" HorizontalAlignment="Right">State</TextBlock>
-        <TextBox x:Name="stateText" Grid.Row="3" Grid.Column="2" MinWidth="200" MaxWidth="300" Margin="0 20 0 0 " />
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="0 10 5 0" HorizontalAlignment="Right">State</TextBlock>
+        <TextBox x:Name="stateText" Grid.Row="3" Grid.Column="2" MinWidth="200" MaxWidth="300" Margin="0 10 0 0 " />
 
         <TextBlock Grid.Row="4" Grid.Column="1" Margin="0 10 5 0" HorizontalAlignment="Right">Zip Code</TextBlock>
         <TextBox x:Name="zipCodeText" Grid.Row="4" Grid.Column="2" MinWidth="200" MaxWidth="300" Margin="0 10 0 0 " />
 
         <Button Name="saveAddress" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" 
-                Margin="20" Padding="0 10">Save</Button>
+                Margin="20" Padding="0 10" Click="saveAddress_Click">Save</Button>
     </Grid>
 </Window>
