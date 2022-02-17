@@ -41,13 +41,13 @@
                 <DataTemplate>
                     <StackPanel Orientation="Vertical">
                         <TextBlock Text="{Binding Path=StreetAddress}" />
-                        <StackPanel>
+                        <StackPanel Orientation="Horizontal">
                             <TextBlock Text="{Binding Path=City}" FontSize="12" />
-                            <TextBlock Text=", " />
+                            <TextBlock Text=", " FontSize="12" />
                             <TextBlock Text="{Binding Path=State}" FontSize="12" />
-                            <TextBlock Text="  " />
+                            <TextBlock Text=" " FontSize="12" />
                             <TextBlock Text="{Binding Path=ZipCode}" FontSize="12" />
-                    </StackPanel>
+                        </StackPanel>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
